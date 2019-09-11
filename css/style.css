@@ -1,0 +1,332 @@
+#container{
+    width: 100%;
+}
+
+#navBar{
+    position: fixed;
+    width: 100%;
+    background: #5e6e8a;
+    z-index: 2;
+    margin: -8px 0 0 -8px;
+}
+
+#projectHeader{
+    color: #efe2c8;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 16pt;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Cinzel', serif;
+}
+
+@media(min-width: 600px){
+    #projectHeader{
+        font-size: 20pt;
+    }
+}
+
+@media(min-width: 992px){
+    #projectHeader{
+        font-size: 24pt;
+        text-align: left;
+    }
+}
+
+#landingDiv{
+    display: grid;
+}
+
+@media(min-width: 992px){
+    #landingDiv{
+        padding: 50px;
+        margin: 0 -8px -8px -8px;
+        grid-template-columns: 1fr 1fr;
+        background: linear-gradient(
+        rgba(65, 74, 88, 0.45), 
+        rgba(65, 74, 88, 0.45)
+        ),
+        url("../img/ModernOffice.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        font-family: 'Merriweather', serif;
+    }
+}
+
+#miscContentDiv{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 14pt;
+    padding: 20px;
+    z-index: 1;
+    text-align: center;
+    margin: 20px -8px 0 -8px;
+    background: linear-gradient(
+        rgba(65, 74, 88, 0.45), 
+        rgba(65, 74, 88, 0.45)
+        ),
+        url("../img/ModernOffice.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+@media(min-width: 600px){
+    #miscContentDiv{
+        font-size: 16pt;
+    }
+}
+
+@media(min-width: 992px){
+    #miscContentDiv{
+        background: none;
+        margin-top: -100px;
+        padding-right: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-shadow: 1px 1px 1px #000;
+        color: #fff;
+        font-size: 16pt;
+    }
+}
+
+#miscContentHead{
+    font-size: 18pt;
+    color: #d1ba8b;
+    margin-bottom: -5px;
+}
+
+@media(min-width: 600px){
+    #miscContentHead{
+        font-size: 20pt;
+    }
+}
+
+@media(min-width: 992px){
+    #miscContentHead{
+        font-size: 32pt;
+    }
+}
+
+/* FORM CONTENT BELOW */
+
+#formContainerDiv{
+    z-index: 1;
+    height: auto;
+    padding: 10px;
+}
+
+@media(min-width: 992px){
+    #formContainerDiv{
+        background: #fff;
+        border-radius: 5px 5px 5px 5px;
+        padding: 20px;
+        margin-top: 50px;
+        height: 400px;
+    }
+}
+
+#formHeader{
+    text-align: center;
+}
+
+.inputFields{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14pt;
+}
+
+/* NAME INPUTS */
+
+#nameInputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width: 720px){
+    #nameInputDiv{
+        display: grid;
+        margin-left: 20%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 992px){
+    #nameInputDiv{
+        margin: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* EMAIL INPUT */
+
+#emailInputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width: 720px){
+    #emailInputDiv{
+        display: grid;
+        margin-left: 20%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 992px){
+    #emailInputDiv{
+        margin: 0;
+    }
+}
+
+/* PHONE NUMBER INPUT */
+
+#phoneNumberDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width: 720px){
+    #phoneNumberDiv{
+        display: grid;
+        margin-left: 20%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 992px){
+    #phoneNumberDiv{
+        margin: 0;
+    }
+}
+
+#companyNameDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(min-width: 720px){
+    #companyNameDiv{
+        display: grid;
+        margin-left: 20%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 992px){
+    #companyNameDiv{
+        margin: 0;
+    }
+}
+
+#sendButton{
+    margin-left: 20%;
+    width: 60%;
+    font-size: 14pt;
+    height: 30px;
+    background: #3a6bc0;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#sendButton:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+#myFooter{
+    background: #5e6e8a;
+    margin: 0px -8px -16px -8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(min-width: 992px){
+    #myFooter{
+        height: 46px;
+    }
+}
+
+.footerText{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+@media(min-width: 600px){
+    .footerText{
+        font-size: 14pt;
+    }
+}
+
+@media(min-width: 992px){
+    .footerText{
+        margin: 0;
+    }
+}
+
+#getInfoButton{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 5px;
+    background: #ff0000;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border: none;
+}
+
+@media(min-width: 992px){
+    #getInfoButton{
+        width: 25px;
+        height: 25px;
+        border-radius: 25px 25px 25px 25px;
+    }
+}
+
+#getInfoButton:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+
+#output{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 10px 0 10px;
+}
+
+@media(min-width: 600px){
+    #output{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+    }
+}
+
+@media(min-width: 992px){
+    #output{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 100px;
+    }
+}
+
+#cards{
+    font-size: 10pt;
+    border: solid 1px #000;
+    width: 275px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+}
+
