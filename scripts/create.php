@@ -1,7 +1,7 @@
 <?php
     $dsn = 'mysql:dbname=registrationAppDb;host=localhost';
-    $user = 'registrationApp';
-    $password = 'getgood';
+    $user = '****';
+    $password = '****';
 
     // echo json_encode($_POST);
 
