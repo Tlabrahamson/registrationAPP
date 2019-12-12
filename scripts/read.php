@@ -1,7 +1,7 @@
 <?php
     $dsn = 'mysql:dbname=registrationAppDb;host=localhost';
-    $user = 'registrationApp';
-    $password = 'getgood';
+    $user = '****';
+    $password = '****';
 
     try {
         $dbh = new PDO($dsn, $user, $password);
